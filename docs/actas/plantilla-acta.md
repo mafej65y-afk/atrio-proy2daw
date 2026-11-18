@@ -1,7 +1,7 @@
 # Acta de reunión — AAAA-MM-DD
 
-**Asistentes:**
-**Tipo:** reunión de equipo / entrevista / revisión con el profesorado
+- **Asistentes:**
+- **Tipo:** reunión de equipo / entrevista / revisión con el profesorado
 
 ## Temas tratados
 
