@@ -1,4 +1,3 @@
-# ATRIO PROYECTO 2 DAW
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/marca/atrio-logo-horizontal-blanco.svg">
