@@ -1,10 +1,10 @@
 # Entrevista de validación — AAAA-MM-DD
 
-**Tipo:** (propietario particular / gestora de viviendas turísticas / apartamentos turísticos / asociación)
-**Cargo de la persona entrevistada:** (sin nombre si no da permiso)
-**Entrevistan:**
-**Formato:** presencial / videollamada / teléfono
-**Permiso para citar el nombre del establecimiento:** sí / no
+- **Tipo:** (propietario particular / gestora de viviendas turísticas / apartamentos turísticos / asociación)
+- **Cargo de la persona entrevistada:** (sin nombre si no da permiso)
+- **Entrevistan:**
+- **Formato:** presencial / videollamada / teléfono
+- **Permiso para citar el nombre del establecimiento:** sí / no
 
 ## Respuestas
 
