@@ -1,10 +1,10 @@
 # Entrevista de validación — 2026-11-17
 
-**Tipo:** persona particular que gestiona una vivienda turística en Córdoba
-**Cargo o perfil:** propietaria o gestora de un piso (sin nombre; no se pidió permiso para citarla)
-**Entrevista:** José Luis Martínez Fernández (Director)
-**Formato:** presencial
-**Guion:** anexo A de `docs/H0/propuesta-h0.md`
+- **Tipo:** persona particular que gestiona una vivienda turística en Córdoba
+- **Cargo o perfil:** propietaria o gestora de un piso (sin nombre; no se pidió permiso para citarla)
+- **Entrevista:** José Luis Martínez Fernández (Director)
+- **Formato:** presencial
+- **Guion:** anexo A de `docs/H0/propuesta-h0.md`
 
 ## Respuestas
 
