@@ -1,0 +1,28 @@
+# Entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Dependencias
+/vendor/
+node_modules/
+
+# Laravel
+/storage/*.key
+/public/hot
+/public/storage
+/bootstrap/cache/*.php
+
+# Compilados
+/public/build/
+dist/
+
+# Editores y sistema
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Registros
+*.log
