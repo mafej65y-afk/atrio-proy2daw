@@ -11,7 +11,7 @@ subtitle: "Guías visuales para alojamientos turísticos"
 
 **Qué construimos.** **Atrio**, una aplicación web en la que cada alojamiento tiene su guía visual. El huésped la recibe al reservar y recorre el alojamiento estancia a estancia al hacer *scroll* (desplazarse por la página): cómo llegar y entrar, dónde está cada cosa y cómo se usa, normas y lugares de interés. Si algo falla, avisa desde la propia guía. El anfitrión lo gestiona todo desde un panel. Todo con Laravel, MySQL y Docker Compose, la pila del módulo.
 
-> **Estado de la necesidad.** La necesidad se apoya en datos públicos y en la normativa, pero **todavía no la hemos contrastado con un anfitrión o gestora de Córdoba**. Esa entrevista es la tarea más urgente del equipo (apartado 3.3 y anexo A).
+> **Estado de la necesidad.** La necesidad se apoya en datos públicos, en la normativa y en una **primera entrevista presencial con una persona que gestiona un piso turístico en Córdoba** (17 de noviembre de 2026), que confirma el problema y considera útil la idea (apartado 3.3). En la semana S1 se entrevistará también a una gestora con varias viviendas.
 
 # 1. Datos del proyecto y del equipo {.seguido}
 
@@ -24,6 +24,7 @@ subtitle: "Guías visuales para alojamientos turísticos"
 | Profesor | Pedro Díaz Majuelos | Dato confirmado (guía del módulo) |
 | Equipo | Grupo 4 | Dato confirmado |
 | Hito | H0 · Entrega E1 · Propuesta validada · 20 de noviembre de 2026 · 10 % del módulo | Dato confirmado (guía del módulo) |
+| Repositorio | [github.com/mafej65y-afk/atrio-proy2daw](https://github.com/mafej65y-afk/atrio-proy2daw) | Dato confirmado |
 | Versión del repositorio | `v0.1-propuesta` | Propuesta |
 
 | Rol | Integrante | Responsabilidad principal (guía del módulo) |
@@ -42,7 +43,7 @@ Los roles son orientativos: los tres participamos en todo y los tres debemos pod
 
 **Una obligación que hay que cumplir.** El Decreto 28/2016 de viviendas turísticas de Andalucía exige, entre los requisitos de cada vivienda, tener a disposición de las personas usuarias información e instrucciones de funcionamiento de los electrodomésticos y otros dispositivos que lo requieran ([Junta de Andalucía, preguntas frecuentes](https://www.juntadeandalucia.es/export/drupaljda/FAQ_viviendasV4-1.pdf)).
 
-**Un trabajo repetitivo.** **Supuesto para el proyecto:** cada huésped pregunta casi lo mismo antes y durante la estancia, y el anfitrión lo responde a mano por mensajería, a cualquier hora. Las guías en PDF o en papel se quedan desactualizadas y no enseñan dónde está cada cosa. Esta hipótesis es la que vamos a contrastar con anfitriones de Córdoba (apartado 3.3).
+**Un trabajo repetitivo.** **Supuesto para el proyecto:** cada huésped pregunta casi lo mismo antes y durante la estancia, y el anfitrión lo responde a mano por mensajería, a cualquier hora. Las guías en PDF o en papel se quedan desactualizadas y no enseñan dónde está cada cosa. La primera entrevista lo confirma: al llegar, los huéspedes preguntan sobre todo por el wifi, la calefacción y el agua caliente, y el anfitrión lo resuelve por mensaje, con bastante tiempo dedicado (apartado 3.3).
 
 ## 2.2 A quién ayuda
 
@@ -120,7 +121,7 @@ Las viviendas turísticas se regulan en Andalucía por el Decreto 28/2016, modif
 | Colaboradores | Asociaciones del sector (por ejemplo, Avacor en Córdoba), fotógrafos de interiores, servicios de apoyo al emprendimiento (IMDEEC) | Aportan contactos, contenido o apoyo |
 | Proveedores | Alojamiento web, dominios, herramientas de diseño | Necesarios para operar |
 
-**Pendiente del equipo:** completar el anexo C con al menos 8 empresas reales de Córdoba (gestoras, apartamentos turísticos y asociaciones), comprobadas en fuentes públicas. No hemos añadido nombres concretos para no incluir datos sin verificar.
+El **anexo C** recoge 12 empresas y entidades reales de Córdoba de estos grupos (gestoras, edificios de apartamentos turísticos, asociaciones y organismos de apoyo), con su fuente.
 
 ## 3.2 Empresa tipo
 
@@ -147,16 +148,21 @@ Un **propietario particular** con una sola vivienda reúne todas estas funciones
 4. Mantener la información al día sin reimprimir ni reenviar documentos.
 5. Enterarse rápido de las incidencias y saber cuáles están resueltas.
 
-**Validación: pendiente.** El módulo pide documentar la necesidad con entrevistas o encuestas. A fecha de esta propuesta **no hemos realizado ninguna entrevista**. Plan:
+**Validación: primera entrevista realizada.** El 17 de noviembre de 2026, el Director entrevistó en persona a una persona particular que gestiona un piso turístico en Córdoba, con el guion del anexo A. El acta completa está en `docs/actas/2026-11-17-entrevista-anfitrion.md`.
 
-| Acción | Responsable | Evidencia en el repositorio |
+| Necesidad (hipótesis) | Qué dijo la persona entrevistada | Resultado |
 | --- | --- | --- |
-| Contactar con al menos dos anfitriones o gestoras de Córdoba (o con una asociación del sector) | Director | Nota de contacto en `docs/actas/` |
-| Realizar las entrevistas con el guion del anexo A | Analista con el Director | Actas de las entrevistas |
-| Difundir la encuesta del anexo B entre personas que se han alojado en viviendas turísticas | Los tres | Resultados resumidos y anonimizados |
-| Ajustar necesidades y alcance con lo aprendido | Analista | Actualización de este apartado |
+| 1. Preguntas repetidas | Le preguntan por el wifi, la calefacción y el agua caliente, sobre todo al llegar; le quita bastante tiempo | Confirmada |
+| 2. Llegada y acceso | Entrega las llaves en mano | No aplica en su caso; pendiente de comprobar con una gestora |
+| 3. Instrucciones de aparatos | Las explica por mensaje; la calefacción es lo que más dudas genera | Confirmada |
+| 4. Información actualizada | Necesitaría que la herramienta fuera sencilla y rápida de actualizar | Confirmada como requisito |
+| 5. Incidencias | Los huéspedes le escriben o le llaman | Parcial: hoy lo resuelve por mensaje o teléfono |
 
-Si las entrevistas no se consiguen antes del 20 de noviembre, lo indicaremos en la entrega y las completaremos en la primera semana del guion (apartado 5).
+No ha usado ninguna guía digital. Le pareció útil tener las instrucciones y las respuestas en un solo sitio, y acepta que le volvamos a contactar para enseñarle el prototipo.
+
+**Qué cambia en el proyecto.** Las instrucciones de aparatos pasan a ser la parte prioritaria del MVP, y la sencillez del panel se convierte en un requisito de usabilidad para H1.
+
+**Limitación y siguiente paso.** Es una sola entrevista a un anfitrión con un único piso. En la semana S1 entrevistaremos al menos a una gestora con varias viviendas (por ejemplo, a través de Avacor) y pasaremos la encuesta del anexo B.
 
 ## 3.4 Competencia
 
@@ -284,24 +290,24 @@ Trabajaremos en **iteraciones de una semana** (Propuesta), con el tablero como r
 
 | Elemento | Estado en la entrega |
 | --- | --- |
-| Repositorio en GitHub | Estructura incluida en este paquete; hay que subirla y comprobar el enlace |
-| Rama `main` protegida (PR con al menos una revisión) | Instrucciones y script opcional en `scripts/` |
-| README y licencia (MIT) | Incluidos |
-| Guía para contribuir y plantillas de PR e incidencias | Incluidas |
-| Tablero con tareas y responsables | Tareas iniciales en `docs/H0/tablero-inicial.csv`; hay que crearlas en GitHub Projects |
+| Repositorio en GitHub | Hecho: [github.com/mafej65y-afk/atrio-proy2daw](https://github.com/mafej65y-afk/atrio-proy2daw) |
+| Rama `main` protegida (PR con al menos una revisión, sin excepciones para administradores) | Hecho el 18 de noviembre de 2026 (evidencia en el anexo F) |
+| README y licencia (MIT) | Hecho |
+| Guía para contribuir y plantillas de PR e incidencias | Hecho |
+| Tablero con tareas y responsables | Hecho: tablero «Atrio · Tablero» en GitHub Projects, con las tareas del H0 como incidencias (copia en `docs/H0/tablero-inicial.csv`) |
 | Etiqueta `v0.1-propuesta` | Se crea al aprobar la PR de la entrega |
 
 # 7. Lista de comprobación del H0 {.seguido}
 
 | Punto de la guía | Estado |
 | --- | --- |
-| Necesidad real descrita | Hecho (apartado 2); **validación con anfitriones pendiente** |
+| Necesidad real descrita | Hecho (apartado 2) y contrastada con una primera entrevista (apartado 3.3) |
 | Empresas tipo y departamentos caracterizados | Hecho (apartado 3.2) |
 | Oportunidades y ayudas identificadas | Hecho (apartados 4.1 y 4.7) |
 | Obligaciones fiscales, laborales y de prevención resumidas | Hecho (apartados 4.3 a 4.5) |
 | Guion con fases y fechas hasta H1 | Hecho (apartado 5) |
-| Repositorio con `main` protegida, README y licencia | Preparado; falta subirlo y activar la protección |
-| Tablero con tareas y responsables | Preparado; falta crearlo en GitHub |
+| Repositorio con `main` protegida, README y licencia | Hecho (apartado 6 y anexo F) |
+| Tablero con tareas y responsables | Hecho (apartado 6) |
 
 # Anexo A. Guion de entrevista a un anfitrión o gestora de Córdoba
 
@@ -329,15 +335,26 @@ Duración prevista: 20 minutos. Pedir permiso para tomar notas y no recoger dato
 
 La encuesta será anónima y no recogerá datos personales.
 
-# Anexo C. Mapa de empresas de Córdoba (para completar por el equipo) {.seguido}
+# Anexo C. Mapa de empresas de Córdoba {.seguido}
 
-| Empresa | Tipo | Tamaño aproximado | Web | Fuente consultada |
+Empresas y entidades reales relacionadas con Atrio, comprobadas en fuentes públicas el 18 de noviembre de 2026. Cuando la fuente no indica el tamaño, se deja como «No consta».
+
+| Empresa o entidad | Tipo | Tamaño aproximado | Relación con Atrio | Fuente consultada |
 | --- | --- | --- | --- | --- |
-| | Gestora de viviendas turísticas | | | |
-| | Apartamentos turísticos | | | |
-| | Asociación del sector | | | |
-| | Agencia o servicio digital para alojamientos | | | |
-| | Fotografía de interiores | | | |
+| GuestReady | Gestora de alquiler turístico con servicio en Córdoba | Empresa internacional | Cliente potencial (gestora) | [guestready.com](https://www.guestready.com/es/gestion-alquiler-turistico/cordoba/) |
+| Alquivir | Gestora de viviendas y apartamentos turísticos de Córdoba y provincia | Pequeña empresa local | Cliente potencial (gestora) | [alquivir.com](https://www.alquivir.com) |
+| Genteel Home | Gestora con alojamientos turísticos en Córdoba | No consta | Cliente potencial (gestora) | [genteel-home.com](https://genteel-home.com/es/cordoba/alojamientos/apartamento-arruzafa-iv-cordoba) |
+| Apartamentos Casa del Aceite | Apartamentos turísticos en una casa señorial del siglo XVIII, en el centro | 7 apartamentos | Cliente potencial (edificio de apartamentos) | [Cloudbeds](https://hotels.cloudbeds.com/en/reservation/ciw8r4) |
+| Apartamentos Los Patios de la Judería | Apartamentos turísticos en la Judería | No consta | Cliente potencial (edificio de apartamentos) | [Turismo de Córdoba](https://www.turismodecordoba.org/ing-apartamentos-los-patios-de-la-juderia) |
+| Apartamentos Alhajas de Córdoba | Apartamentos turísticos | No consta | Cliente potencial (edificio de apartamentos) | [Turismo de Córdoba](https://turismodecordoba.org/alhajas-de-cordoba-apartaments) |
+| Apartamentos Céspedes Cinco | Apartamentos turísticos junto a la Mezquita-Catedral | No consta | Cliente potencial (edificio de apartamentos) | [Andalucía.org](https://www.andalucia.org/en/cordoba-acommodation-apartamentos-cespedes-cinco) |
+| Apartamentos Córdoba Atrium | Apartamentos turísticos | No consta | Cliente potencial; nombre parecido al nuestro (ver nota) | [Turismo de Córdoba](https://www.turismodecordoba.org/cordoba-atrium-apartments) |
+| Avacor | Asociación de Viviendas y Alojamientos Turísticos de Córdoba; agrupa sobre todo a pequeños propietarios, gestores y pequeñas empresas locales | Asociación | Colaborador: contacto con anfitriones para la validación | [El Debate](https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20260704/guerra-desigualdad-trato-avacor-exige-moratoria-turistica-incluya-hoteles-apartamentos_435972.html) |
+| AVVAPro | Asociación de Profesionales de Viviendas y Apartamentos Turísticos de Andalucía | Asociación regional | Colaborador | [El Debate](https://www.eldebate.com/espana/la-voz-de-cordoba/actualidad/20260327/cordoba-llega-semana-santa-oferta-3217-pisos-turisticos-16700-plazas_400389.html) |
+| AEHCOR | Asociación de Empresarios de Hospedaje de Córdoba | Asociación | Colaborador (sector hotelero) | [Universidad de Córdoba](https://practicas.uco.es/sitcor/images/Conclusiones_resumen_I_Encuentro_CAPT.pdf) |
+| IMDEEC | Instituto Municipal de Desarrollo Económico y Empleo de Córdoba | Organismo público | Apoyo al emprendimiento y ayudas | [BOP de Córdoba](https://bop.dipucordoba.es/visor-pdf/06-05-2026/BOP-A-2026-1455.pdf) |
+
+**Nota sobre el nombre.** En Córdoba existen los «Apartamentos Córdoba Atrium», del mismo sector. No es el mismo nombre, pero conviene tenerlo en cuenta al comprobar la disponibilidad de la marca «Atrio» (anexo D).
 
 # Anexo D. Identidad de la marca {.seguido}
 
@@ -348,6 +365,12 @@ El nombre, el eslogan («Entra antes de llegar») y el logotipo de Atrio son una
 # Anexo E. Declaración de uso de inteligencia artificial {.seguido}
 
 Ver `docs/declaracion-uso-ia.md`. Resumen: se ha usado un asistente de IA (Claude, de Anthropic) para proponer la idea, el nombre y el logotipo, buscar y resumir fuentes públicas y redactar borradores de este documento y del repositorio. El equipo ha revisado el contenido, es responsable de él y debe poder explicarlo.
+
+# Anexo F. Evidencias del repositorio {.seguido}
+
+**Protección de la rama `main`.** Regla creada el 18 de noviembre de 2026 en *Settings → Branches*: exige pull request con una aprobación y no permite saltarse la regla, tampoco a los administradores.
+
+![Regla de protección de la rama main en el repositorio mafej65y-afk/atrio-proy2daw](evidencias/proteccion-main.png)
 
 # Fuentes
 
