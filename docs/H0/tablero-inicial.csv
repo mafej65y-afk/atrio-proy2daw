@@ -1,0 +1,24 @@
+titulo,descripcion,responsable,hito,estado,etiqueta
+Crear el repositorio y proteger main,"Subir la estructura, activar la protección de main (PR con 1 revisión) y añadir a los tres integrantes",Antonio Chacón Durán,H0,Pendiente,repositorio
+Crear el tablero en GitHub Projects,"Columnas Pendiente, En curso, En revisión y Hecho; cargar estas tareas",José Luis Martínez Fernández,H0,Pendiente,gestion
+Revisar la propuesta del H0,Leer docs/H0/propuesta-h0.md y corregir lo necesario por PR,Antonio Jesús Cejudo Valero,H0,Pendiente,documentacion
+Confirmar el nombre y el logo,Aceptar o cambiar el nombre Atrio y su logotipo,José Luis Martínez Fernández,H0,Pendiente,documentacion
+Contactar con anfitriones de Córdoba,"Al menos dos anfitriones o gestoras de viviendas turísticas, o una asociación; dejar constancia en docs/actas",José Luis Martínez Fernández,H0,Pendiente,analisis
+Realizar la entrevista de validación,Usar el anexo A y la plantilla docs/actas/plantilla-entrevista.md,Antonio Jesús Cejudo Valero,H1,Pendiente,analisis
+Difundir la encuesta,Anexo B; resultados anonimizados,Antonio Jesús Cejudo Valero,H1,Pendiente,analisis
+Completar el mapa de empresas de Córdoba,Anexo C: gestoras, apartamentos turísticos y asociaciones; al menos 8 con su fuente,José Luis Martínez Fernández,H1,Pendiente,analisis
+Revisar la declaración de uso de IA,Completar la columna de lo que hizo el equipo,José Luis Martínez Fernández,H0,Pendiente,documentacion
+Entregar E1 y etiquetar v0.1-propuesta,Merge de la PR de la entrega y etiqueta,Antonio Chacón Durán,H0,Pendiente,repositorio
+Redactar requisitos funcionales y no funcionales,Con prioridades,Antonio Jesús Cejudo Valero,H1,Pendiente,analisis
+Redactar al menos 10 casos de uso o historias de usuario,Priorizados y ligados a los 3 roles,Antonio Jesús Cejudo Valero,H1,Pendiente,analisis
+Definir el MVP y lo que queda fuera,Justificar por qué es viable,José Luis Martínez Fernández,H1,Pendiente,analisis
+Estudio de viabilidad técnica y elección de la pila,"Laravel, MySQL, Vue y Docker; alternativas",Antonio Chacón Durán,H1,Pendiente,diseno
+Recursos y presupuesto,Recursos materiales y personales y coste estimado,José Luis Martínez Fernández,H1,Pendiente,gestion
+Financiación,Vías de financiación a partir del apartado 4.7,José Luis Martínez Fernández,H1,Pendiente,gestion
+Modelo de datos,Al menos 8 entidades relacionadas,Antonio Jesús Cejudo Valero,H1,Pendiente,diseno
+Roles y permisos,"Administrador, anfitrión y huésped con código de reserva",Antonio Jesús Cejudo Valero,H1,Pendiente,diseno
+Prototipo de la interfaz,Figma o Penpot; pantallas principales,Antonio Jesús Cejudo Valero,H1,Pendiente,diseno
+Diagrama de arquitectura,Contenedores de base de datos API y web,Antonio Chacón Durán,H1,Pendiente,diseno
+Plan de calidad,"Pruebas previstas, WCAG 2.1 AA y seguridad",Antonio Jesús Cejudo Valero,H1,Pendiente,calidad
+Manual técnico v0,Primera versión en el repositorio,Antonio Chacón Durán,H1,Pendiente,documentacion
+Entregar E2 y etiquetar v0.2-diseno,14 de diciembre,José Luis Martínez Fernández,H1,Pendiente,repositorio
