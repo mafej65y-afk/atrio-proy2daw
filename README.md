@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/marca/atrio-logo-horizontal-blanco.svg">
-    <img src="docs/marca/atrio-logo-horizontal.svg" alt="Atrio — Guías visuales para alojamientos" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/marca/atrio-logo-horizontal-blanco.png">
+    <img src="docs/marca/atrio-logo-horizontal.png" alt="Atrio — Guías visuales para alojamientos" width="420">
   </picture>
 </p>
 

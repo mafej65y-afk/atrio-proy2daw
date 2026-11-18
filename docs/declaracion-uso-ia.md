@@ -6,7 +6,7 @@ La guía del módulo permite usar IA siempre que se declare y que el equipo pued
 
 | Herramienta | Proveedor | Uso |
 | --- | --- | --- |
-| Claude | Anthropic | Apoyo en redacción, búsqueda de fuentes y diseño del logotipo |
+| Claude | Anthropic | Apoyo en la idea, la redacción, la búsqueda de fuentes y el diseño del logotipo |
 
 ## Registro por hito
 
@@ -14,10 +14,11 @@ La guía del módulo permite usar IA siempre que se declare y que el equipo pued
 
 | Tarea | Qué hizo la IA | Qué hizo el equipo |
 | --- | --- | --- |
-| Idea del proyecto | Propuso cambiar la web para hoteles por una guía visual para viviendas turísticas, más sencilla y fácil de validar | *Pendiente: confirmar que el equipo acepta el cambio* |
-| Nombre e identidad de la marca | Propuso nombres, eslogan, paleta y un logotipo en SVG | *Pendiente: indicar si se aceptan o se cambian* |
-| Análisis del sector y contexto profesional | Buscó y resumió fuentes públicas (datos de turismo de Córdoba, normativa, ayudas) | *Pendiente: comprobar cada dato en su fuente* |
-| Propuesta, guion de trabajo y documentos del repositorio | Redactó borradores | *Pendiente: revisar, corregir y completar* |
+| Idea del proyecto | Propuso cambiar la web para hoteles por una guía visual para viviendas turísticas, más sencilla y fácil de validar | El Director valoró las alternativas y eligió la guía visual para viviendas turísticas |
+| Nombre e identidad de la marca | Propuso nombres, eslogan, paleta y un logotipo en SVG | El Director eligió el nombre «Atrio», el eslogan y el logotipo |
+| Análisis del sector y contexto profesional | Buscó y resumió fuentes públicas: datos de turismo de Córdoba, normativa, competencia, empresas y ayudas | El Director revisó el contenido y comprobó los enlaces de las fuentes |
+| Propuesta, guion de trabajo y documentos del repositorio | Redactó los borradores del documento, el README, la guía para contribuir y las plantillas | El Director revisó los textos, pidió cambios y decidió el reparto de tareas |
+| Repositorio y tablero | Explicó los pasos para configurarlos | El Director creó el repositorio, subió los archivos, protegió la rama `main` y creó el tablero y las incidencias |
 
 ## Ejemplo de petición
 
